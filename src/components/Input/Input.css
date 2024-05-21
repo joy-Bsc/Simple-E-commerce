@@ -1,0 +1,21 @@
+.input-text input{
+    width: 80%;
+    line-height: 22px;
+    font-size: 17px;
+}
+.input-text{
+    background-color: #222;
+    text-align: center;
+    padding: 20px;
+    height: 20px;
+    display: flex;
+    
+}
+.review{
+    text-decoration-color: orange;
+}
+.font{
+    height: fit-content;
+    color: orange;
+   
+}

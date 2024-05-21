@@ -1,0 +1,62 @@
+.ship-form {
+  display: flex;
+  flex-direction: column;
+  width: 50%;
+  margin: 0 auto;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.ship-form input {
+  margin-bottom: 10px;
+  padding: 5px;
+}
+
+.ship-form button {
+  padding: 5px;
+  background-color: #f0c14b;
+  border: 1px solid;
+  border-radius: 2px;
+  margin-top: 10px;
+}
+
+.ship-form button:hover {
+  background-color: #ddb347;
+}
+
+.ship-form h3 {
+  margin-bottom: 20px;
+}
+
+.ship-form p {
+  margin-bottom: 10px;
+}
+
+.ship-form select {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.ship-form input[type="checkbox"] {
+  margin-right: 5px;
+}
+
+.ship-form label {
+  font-weight: bold;
+}
+
+.ship-form input[type="checkbox"]:checked {
+  background-color: #f0c14b;
+}
+
+.ship-form input[type="checkbox"]:checked + label {
+  text-decoration: line-through;
+}
+
+.error {
+  color: red;
+  font-size: 14px;
+  margin-top: 5px;
+}
+
